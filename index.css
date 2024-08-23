@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+}
+
+.parent {
+    position: relative;
+}
+
+.scoreboard-bg {
+    height: 1010px;
+    width: 2127px;
+    background-color: rgb(2, 85, 2);
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    z-index: 9;
+    
+}
+
+.period-timer {
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    left: 763px;
+    border: 10px solid white;
+    z-index: 10;
+}
+
+.scores {
+    position: relative;
+}
+
+.score-home {
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    left: 200px;
+    top: 400px;
+    border: 10px solid white;
+}
+
+.score-guest {
+    height: 200px;
+    width: 400px;
+    z-index: 10;
+    background-color: black;
+    position: absolute;
+    top: 400px;
+    left: 1527px;
+    border: 10px solid white;
+}
+
+.fouls {
+    position: relative;
+}
+
+.fouls-home {
+    height: 300px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    left: 700px;
+    top: 650px;
+    border: 10px solid white;
+}
+
+.fouls-guest {
+    height: 300px;
+    width: 200px;
+    z-index: 10;
+    background-color: black;
+    position: absolute;
+    top: 650px;
+    left: 1227px;
+    border: 10px solid white;
+}
+
+.addpoints {
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    justify-content: space-around;
+}
+
+.addpointshome {
+    top: 10px;
+}
